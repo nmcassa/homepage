@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nicholas Cassarino</title>
+<meta charset="UTF-8">
+<style>
+body {
+  background-color: #efe7d8;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  margin: 40px;
+}
+a {
+  color: #0000EE;
+}
+a:visited {
+  color: #551A8B;
+}
+hr {
+  border: none;
+  border-top: 1px solid #999966;
+  margin: 20px 0;
+}
+h1 {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.nav {
+  margin: 10px 0 20px 0;
+}
+.nav a {
+  margin-right: 14px;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  vertical-align: top;
+  padding: 2px 6px 2px 0;
+}
+.small {
+  font-size: 13px;
+  color: #444422;
+}
+
+/* two-column layout: text left, photo right, fully independent */
+.layout {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.col-text {
+  display: table-cell;
+  vertical-align: top;
+  padding-right: 30px;
+}
+.col-photo {
+  display: table-cell;
+  vertical-align: top;
+  width: 300px;
+}
+.photo-box {
+  border: 1px solid #999966;
+  padding: 6px;
+  background-color: #f7f2e6;
+  width: 300px;
+}
+.photo-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.photo-caption {
+  font-size: 12px;
+  color: #444422;
+  text-align: center;
+  margin-top: 6px;
+}
+</style>
+</head>
+<body>
+
+<h1>Nicholas Cassarino</h1>
+<div class="small">ncassari@uncc.edu &nbsp;|&nbsp; Charlotte, NC</div>
+
+<div class="nav">
+<a href="index.html">Home</a>
+<a href="cv.html">CV</a>
+</div>
+
+<hr>
+
+<div class="layout">
+
+  <div class="col-text">
+
+    <p>
+    I am a Ph.D. student at Clemson University, advised by Dr. Rong Ge. My research
+    interests are in runtime systems, heterogeneous memory management, and
+    distributed simulation.
+    I enjoy low-level work with heterogeneous systems. In the past I have worked with GPUs, custom Linux kernels,
+    and NVIDIA drivers to study and improve how memory moves between CPU and
+    accelerator.
+    </p>
+
+    <p>
+    I am currently an intern at Argonne National Laboratory (advised by Dr. Swann Perarnau), working on
+    Timeweave, a distributed memory runtime for PDES and ABMS suites.
+    </p>
+
+  </div>
+
+  <div class="col-photo">
+    <div class="photo-box">
+      <img src="PASC25_17.06.2025_103.jpg" alt="Nicholas Cassarino">
+      <div class="photo-caption">PASC 25, June 2025</div>
+    </div>
+  </div>
+
+</div>
+
+<hr>
+<div class="small">Last updated August 2026</div>
+
+</body>
+</html>
